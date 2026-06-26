@@ -11,6 +11,14 @@ GIT
       syslog
 
 GIT
+  remote: https://github.com/chef/corefoundation.git
+  revision: 7096328fdcfbbefe872253841b7e9cc2e911aba0
+  branch: rc/fix-preferences-sync-call
+  specs:
+    corefoundation (0.3.18)
+      ffi (>= 1.15.0)
+
+GIT
   remote: https://github.com/chef/ohai.git
   revision: f96614f05e10533a7ce8e9dd2749031983bc16e4
   branch: main
@@ -259,8 +267,6 @@ GEM
     connection_pool (2.5.5)
     cookstyle (8.6.10)
       rubocop (= 1.84.2)
-    corefoundation (0.3.13)
-      ffi (>= 1.15.0)
     crack (1.0.1)
       bigdecimal
       rexml
@@ -580,6 +586,7 @@ DEPENDENCIES
   chef-utils!
   chef-vault
   cheffish!
+  corefoundation!
   crack (~> 1.0.1)
   fauxhai-ng
   ffi (>= 1.15.5)

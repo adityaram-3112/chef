@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "chef", path: "."
 
 gem "ohai", git: "https://github.com/chef/ohai.git", branch: "main"
+gem "corefoundation", git: "https://github.com/chef/corefoundation.git", branch: "rc/fix-preferences-sync-call"
 
 gem "cheffish", git: "https://github.com/chef/cheffish.git", branch: "main"
 
